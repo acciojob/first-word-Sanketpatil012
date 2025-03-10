@@ -1,5 +1,7 @@
 function firstWord(s) {
-       let trimmedStr = str.trim();
+      let trimmedStr = s.trim();
+
+    // Find the index of the first space
     let spaceIndex = trimmedStr.indexOf(" ");
 
     // If no space is found, return the entire string
